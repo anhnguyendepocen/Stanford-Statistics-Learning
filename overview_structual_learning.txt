@@ -1,0 +1,30 @@
+Dimensionality and Structured Models:
+- Nearest Neighbor doesn't fit well when data is high dimensional.
+- Spine smoothing
+- 10% of data points in each interval.
+- Linear and Quadratic model.
+Quadratic models fits well compared to Linear.
+- Under-fit, Overfit models.
+- Prediction accuracy vs interpretablity comparsion amonth different models.
+
+Model Selection and Bias-Variance Tradeoff
+- Bias-Variance tradeoff
+Flexibility increases, variance increases and bias decreases
+
+Classification:
+- Bayes Optimal Classifier:
+The classifier that classifies to the class for which the conditional
+probability for that element of the class is largest.
+Misclassification error:
+C(xi) = Predicted values != Actual Value
+Sum of C(xi)
+
+K-nearest neighbors in two dimensions
+K = (1,2,...10)
+Get (K=10) values in the radius and ratio of class1 and class2 is calculated. The one with higher ratio is predicted.
+Decision boundary: where probability of two classes are same.
+1/3 rd of classification solved by k-nearest neighbors classification alogithm.
+
+
+
+

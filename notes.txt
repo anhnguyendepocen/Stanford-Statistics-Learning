@@ -1,0 +1,96 @@
+Dimensionality and Structured Models:
+- Nearest Neighbor doesn't fit well when data is high dimensional.
+- Spine smoothing
+- 10% of data points in each interval.
+- Linear and Quadratic model.
+Quadratic models fits well compared to Linear.
+- Under-fit, Overfit models.
+- Prediction accuracy vs interpretablity comparsion amonth different models.
+
+Model Selection and Bias-Variance Tradeoff
+- Bias-Variance tradeoff
+Flexibility increases, variance increases and bias decreases
+
+Classification:
+- Bayes Optimal Classifier:
+The classifier that classifies to the class for which the conditional
+probability for that element of the class is largest.
+Misclassification error:
+C(xi) = Predicted values != Actual Value
+Sum of C(xi)
+
+K-nearest neighbors in two dimensions
+K = (1,2,...10)
+Get (K=10) values in the radius and ratio of class1 and class2 is calculated. The one with higher ratio is predicted.
+Decision boundary: where probability of two classes are same.
+1/3 rd of classification solved by k-nearest neighbors classification alogithm.
+
+Tree-Based Methods:
+Regression:
+Applying Tree based model for regression problem.
+Discussed with Baseball dataset
+RSS is used as criteria for the split.
+Number of nodes is used as criteria for the split.
+Cross-Validation is applied for the validation on test dataset.
+
+To penalize the error, Alpha is used which helps in selecting subtree out of bigger tree.
+
+Pruning is used to get smaller trees.
+
+Classification:
+Classification error rate is used a cirterion for the binary split.
+
+Gini index is used to measure the total variance across the k class.
+Alertnative to Gini index is cross-entropy
+
+Looked at the heart dataset to decide whether a person is has high risk of heart disease or not.
+
+Tree vs Linear model comparison is explained well.
+Basically discussed where some problems are suited for Tree based models and some suited for Linear models.
+Advantages and Disadvantes of Tree based methods are discussed.
+
+
+
+Bagging/Bootstrap aggregation:
+To reduce the variance
+
+It generates number of trees with the same size as original data.
+
+and then predictions given by all trees for given X predictor is averaged.
+This is called bagging.
+
+Majority votes by trees are considered.
+
+Random Forest is advanced form of bagging.
+The idea is to reduce the correlation between the trees.
+
+Boosting:
+It gives prediction models that are overage of the trees.
+It basically uses the reducted residuals as input to the next tree which gives us a better model over number of continous iterations.
+
+SVM:
+
+A hyperplane is used to separate the classes.
+
+Soft margin
+
+Regularization parameter (C)
+
+Somtimes the data points are so close that Regularization parameter(C) even doesn't helps. This problem is overcome by "Feature Expansion"
+
+Feature expansion:
+Feature are transformed using polynomial expansions
+
+Basically it changes from 2dimensional space to higher dimensional space. The more tranformed variables are added, easier the separation in this higer dimensional 
+space.
+
+Support Vectors/Support Points
+
+Kernels
+
+Comparison with Logistic Regression
+
+When having more than two classes
+Techniques:
+1. OVA - One versus All
+2. OVO - One versus One
